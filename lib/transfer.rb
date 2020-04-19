@@ -27,9 +27,6 @@ else
  
 end
 
-def closed_account_trasfer 
-  
-end 
 
 
 
