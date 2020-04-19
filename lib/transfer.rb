@@ -27,8 +27,8 @@ else
  
 end
 def reverse_transfer(amount)
-   @receiver.deposit(amount)
-  @sender.balance -= amount
+   @sender.deposit(amount)
+   @receiver.balance -= amount
   @status = "complete"
   
 end
