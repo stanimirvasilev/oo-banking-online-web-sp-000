@@ -26,10 +26,11 @@ else
  end 
  
 end
+
 def reverse_transfer
   if @status == "executed"
-   @receiver.balance -= amount
-   @sender.deposit(amount)
+   @receiver.balance -= @amount
+   @sender.deposit(@amount)
   @status = "reversed"
 end
 end
